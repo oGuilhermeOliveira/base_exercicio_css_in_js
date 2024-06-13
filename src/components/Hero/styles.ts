@@ -31,13 +31,9 @@ export const HeroTitulo = styled.h2`
   font-size: 49px;
 
   @media (max-width: 768px) {
-    .form {
-      height: auto;
-      padding: 24px 0;
-    }
-
-    .heroTitle {
-      font-size: 32px;
-    }
+    height: auto;
+    padding: 24px 0;
+    font-size: 32px;
+    text-align: center;
   }
 `
